@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron bg-dark text-white text-center mt-3">
+            <h1>Animal Gif Generator</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mb-3" id="btn-section">
+                <h4 class="text-center text-muted">Click to Generate Gifs</h4>
+            </div>
+            <div class="col-lg-4 mb-3" id="input-section">
+                <h4 class="text-center text-muted">Add an Animal</h3>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Animal" aria-label="Animal" aria-describedby="add-btn" id="input">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button" id="add-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="gif-section"></div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
